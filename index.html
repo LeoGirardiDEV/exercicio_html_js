@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Validação</title>
+    <link rel="stylesheet" href="./main.css"/>
+</head>
+<body>
+    <div class="container">
+        <h1>Validação Numérica JS</h1>
+        <form id="form-valid">
+            <input type="number" id="campoA" placeholder="Número A" required/>
+            <input type="number" id="campoB" placeholder="Número B"required/>
+            <button type="submit" id="btn-submit">Enviar</button>
+        </form>
+    <p class="success-msg"></p>
+    <p class="error-msg">
+        O <b>Número B</b> não é maior que o <b>Número A</b>, tente outra vez!
+    </p>
+    <button id="btn-refresh">OK</button>
+</div>
+</body>
+<script src="./script.js" defer></script>
+</html>
